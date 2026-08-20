@@ -1,0 +1,1198 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/* =========================================================
+   ROOT
+========================================================= */
+
+:root {
+
+    --navy: #172a58;
+    --navy-dark: #0d1d43;
+    --navy-light: #28477d;
+
+    --cream: #fbf7e9;
+    --cream-dark: #f1e8cb;
+
+    --gold: #c89422;
+    --gold-light: #e7c766;
+    --gold-dark: #9e7015;
+
+    --red: #b52d32;
+    --red-dark: #8d2027;
+
+    --green: #16836d;
+    --green-light: #49a889;
+
+    --blue-flower: #165a9b;
+
+    --text: #302a20;
+    --text-light: #675f4c;
+
+}
+
+
+/* =========================================================
+   RESET
+========================================================= */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+/* =========================================================
+   BODY
+========================================================= */
+
+body {
+
+    min-height: 100vh;
+
+    color: var(--text);
+
+    padding: 60px 20px;
+
+    background:
+
+        radial-gradient(
+            circle at 10% 20%,
+            rgba(232, 200, 107, .16),
+            transparent 28%
+        ),
+
+        radial-gradient(
+            circle at 90% 80%,
+            rgba(73, 168, 137, .10),
+            transparent 30%
+        ),
+
+        linear-gradient(
+            135deg,
+            #101f48 0%,
+            #1c3568 45%,
+            #10234c 100%
+        );
+
+    background-attachment: fixed;
+
+}
+
+
+/* =========================================================
+   CONTAINER
+========================================================= */
+
+.container {
+
+    width: 100%;
+    max-width: 900px;
+
+    margin: auto;
+
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero {
+
+    position: relative;
+
+    overflow: hidden;
+
+    padding: 60px 55px;
+
+    margin-bottom: 75px;
+
+    border-radius: 28px;
+
+    background:
+
+        radial-gradient(
+            circle at 50% 50%,
+            rgba(200, 148, 34, .05),
+            transparent 55%
+        ),
+
+        var(--cream);
+
+    border: 2px solid rgba(200, 148, 34, .55);
+
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, .30),
+        inset 0 0 50px rgba(200, 148, 34, .07);
+
+    text-align: center;
+
+}
+
+
+/* Ornamen dekorasi hero */
+
+.hero::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 230px;
+    height: 230px;
+
+    left: -110px;
+    top: -100px;
+
+    border-radius: 50%;
+
+    background:
+
+        radial-gradient(
+            circle,
+            transparent 35%,
+            rgba(23, 42, 88, .07) 36%,
+            transparent 38%
+        );
+
+    transform: rotate(25deg);
+
+}
+
+
+.hero::after {
+
+    content: "";
+
+    position: absolute;
+
+    width: 260px;
+    height: 260px;
+
+    right: -120px;
+    bottom: -130px;
+
+    border-radius: 50%;
+
+    background:
+
+        radial-gradient(
+            circle,
+            transparent 35%,
+            rgba(200, 148, 34, .10) 36%,
+            transparent 38%
+        );
+
+}
+
+
+/* =========================================================
+   HERO FLOWERS
+========================================================= */
+
+.hero-flower {
+
+    position: absolute;
+
+    width: 100px;
+    height: 100px;
+
+    opacity: .8;
+
+}
+
+
+.hero-flower::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 28px;
+    height: 28px;
+
+    border-radius: 50%;
+
+    background: var(--gold);
+
+    top: 36px;
+    left: 36px;
+
+    box-shadow:
+
+        0 -30px 0 -4px var(--red),
+        30px 0 0 -4px var(--red),
+        0 30px 0 -4px var(--red),
+        -30px 0 0 -4px var(--red);
+
+}
+
+
+.hero-flower::after {
+
+    content: "";
+
+    position: absolute;
+
+    width: 45px;
+    height: 18px;
+
+    background: var(--green);
+
+    border-radius: 100% 0 100% 0;
+
+    transform: rotate(-35deg);
+
+    left: 3px;
+    bottom: 12px;
+
+}
+
+
+.hero-flower-left {
+
+    left: 15px;
+    bottom: 15px;
+
+    transform: rotate(-20deg);
+
+}
+
+
+.hero-flower-right {
+
+    right: 15px;
+    top: 15px;
+
+    transform: rotate(25deg);
+
+}
+
+
+/* =========================================================
+   ORGANIZATION
+========================================================= */
+
+.organization {
+
+    max-width: 620px;
+
+    margin: auto;
+
+    color: var(--navy);
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    line-height: 1.6;
+
+}
+
+
+.hero h1 {
+
+    position: relative;
+
+    z-index: 2;
+
+    margin-top: 18px;
+
+    margin-bottom: 5px;
+
+    font-family: 'Great Vibes', cursive;
+
+    font-size: 68px;
+
+    font-weight: 400;
+
+    line-height: 1.2;
+
+    color: var(--navy);
+
+    text-shadow:
+        2px 2px 0 white,
+        -1px -1px 0 white;
+
+}
+
+
+.organization-title {
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 25px;
+
+    font-weight: 700;
+
+    color: var(--red);
+
+    text-shadow: 1px 1px 0 white;
+
+}
+
+
+.tagline {
+
+    max-width: 680px;
+
+    margin: 10px auto 25px;
+
+    color: var(--navy);
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    line-height: 1.6;
+
+}
+
+
+/* =========================================================
+   GOLD DIVIDER
+========================================================= */
+
+.gold-divider {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    width: 90%;
+
+    margin: 20px auto 30px;
+
+}
+
+
+.gold-divider::before,
+.gold-divider::after {
+
+    content: "";
+
+    height: 2px;
+
+    flex: 1;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            var(--gold)
+        );
+
+}
+
+
+.gold-divider::after {
+
+    background:
+        linear-gradient(
+            90deg,
+            var(--gold),
+            transparent
+        );
+
+}
+
+
+.gold-divider span {
+
+    width: 9px;
+    height: 9px;
+
+    background: var(--gold);
+
+    transform: rotate(45deg);
+
+}
+
+
+/* =========================================================
+   CURRENT STAGE
+========================================================= */
+
+.current-stage {
+
+    margin: 25px auto 35px;
+
+}
+
+
+.current-stage small {
+
+    display: block;
+
+    margin-bottom: 5px;
+
+    color: var(--gold-dark);
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    text-transform: uppercase;
+
+    letter-spacing: .08em;
+
+}
+
+
+.current-stage h2 {
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 34px;
+
+    color: var(--navy);
+
+}
+
+
+/* =========================================================
+   COUNTDOWN
+========================================================= */
+
+.countdown-title {
+
+    margin-bottom: 18px;
+
+    color: var(--navy);
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+}
+
+
+.countdown {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+
+    margin-bottom: 35px;
+
+}
+
+
+.time-box {
+
+    width: 95px;
+
+    padding: 17px 10px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #f7edc9,
+            #eee0ae
+        );
+
+    border: 1px solid var(--gold-light);
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 7px 18px rgba(23, 42, 88, .10);
+
+}
+
+
+.time-box h2 {
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 38px;
+
+    color: var(--navy);
+
+}
+
+
+.time-box span {
+
+    color: var(--gold-dark);
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+}
+
+
+/* =========================================================
+   PROGRESS
+========================================================= */
+
+.progress-section {
+
+    max-width: 500px;
+
+    margin: auto;
+
+}
+
+
+.progress-bar {
+
+    height: 11px;
+
+    overflow: hidden;
+
+    margin-bottom: 12px;
+
+    background: #e5dbc0;
+
+    border-radius: 100px;
+
+}
+
+
+.progress-fill {
+
+    width: 25%;
+
+    height: 100%;
+
+    border-radius: 100px;
+
+    background:
+        linear-gradient(
+            90deg,
+            var(--gold-light),
+            var(--gold),
+            var(--gold-dark)
+        );
+
+    animation: load 1s ease;
+
+}
+
+
+.progress-section p {
+
+    color: var(--text-light);
+
+    font-size: 13px;
+
+}
+
+
+@keyframes load {
+
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 25%;
+    }
+
+}
+
+
+/* =========================================================
+   TIMELINE
+========================================================= */
+
+.timeline {
+
+    position: relative;
+
+    padding-left: 45px;
+
+}
+
+
+.timeline::before {
+
+    content: "";
+
+    position: absolute;
+
+    left: 18px;
+
+    top: 0;
+
+    width: 3px;
+
+    height: 100%;
+
+    background:
+        repeating-linear-gradient(
+            180deg,
+            var(--gold) 0,
+            var(--gold) 10px,
+            transparent 10px,
+            transparent 17px
+        );
+
+}
+
+
+/* =========================================================
+   ITEM
+========================================================= */
+
+.item {
+
+    position: relative;
+
+    padding-bottom: 55px;
+
+}
+
+
+/* =========================================================
+   DOT
+========================================================= */
+
+.dot {
+
+    position: absolute;
+
+    left: -37px;
+
+    top: 25px;
+
+    width: 22px;
+    height: 22px;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--gold-light),
+            var(--gold)
+        );
+
+    border: 5px solid var(--cream);
+
+    box-shadow:
+        0 0 0 3px var(--gold);
+
+}
+
+
+.locked .dot {
+
+    background: #c5bda5;
+
+    box-shadow:
+        0 0 0 3px #c5bda5;
+
+}
+
+
+/* =========================================================
+   CARD
+========================================================= */
+
+.card {
+
+    position: relative;
+
+    overflow: hidden;
+
+    padding: 30px;
+
+    background:
+
+        radial-gradient(
+            circle at 80% 20%,
+            rgba(200, 148, 34, .08),
+            transparent 28%
+        ),
+
+        var(--cream);
+
+    border: 1px solid rgba(200, 148, 34, .65);
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 12px 30px rgba(7, 20, 50, .20);
+
+    transition: .3s ease;
+
+}
+
+
+.card:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 18px 38px rgba(7, 20, 50, .28);
+
+}
+
+
+/* =========================================================
+   CARD FLOWER ORNAMENT
+========================================================= */
+
+.card-flower {
+
+    position: absolute;
+
+    width: 100px;
+    height: 100px;
+
+    right: -25px;
+    top: -25px;
+
+    opacity: .25;
+
+    pointer-events: none;
+
+}
+
+
+.card-flower::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 25px;
+    height: 25px;
+
+    border-radius: 50%;
+
+    top: 35px;
+    left: 35px;
+
+    background: var(--gold);
+
+}
+
+
+.card-flower::after {
+
+    content: "";
+
+    position: absolute;
+
+    width: 32px;
+    height: 32px;
+
+    border-radius: 50%;
+
+    top: 18px;
+    left: 32px;
+
+    background: var(--red);
+
+    box-shadow:
+
+        0 35px 0 var(--red),
+        35px 0 0 var(--red),
+        -35px 0 0 var(--red);
+
+}
+
+
+/* Variasi warna bunga */
+
+.flower-red::after {
+
+    background: var(--red);
+
+    box-shadow:
+        0 35px 0 var(--red),
+        35px 0 0 var(--red),
+        -35px 0 0 var(--red);
+
+}
+
+
+.flower-blue::after {
+
+    background: var(--blue-flower);
+
+    box-shadow:
+        0 35px 0 var(--blue-flower),
+        35px 0 0 var(--blue-flower),
+        -35px 0 0 var(--blue-flower);
+
+}
+
+
+.flower-green::after {
+
+    background: var(--green);
+
+    box-shadow:
+        0 35px 0 var(--green),
+        35px 0 0 var(--green),
+        -35px 0 0 var(--green);
+
+}
+
+
+.flower-gold::after {
+
+    background: var(--gold);
+
+    box-shadow:
+        0 35px 0 var(--gold),
+        35px 0 0 var(--gold),
+        -35px 0 0 var(--gold);
+
+}
+
+
+/* =========================================================
+   STATUS
+========================================================= */
+
+.status {
+
+    position: relative;
+
+    z-index: 2;
+
+    margin-bottom: 8px;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: .04em;
+
+    text-transform: uppercase;
+
+}
+
+
+.open {
+
+    color: var(--green);
+
+}
+
+
+.closed {
+
+    color: var(--red);
+
+}
+
+
+/* =========================================================
+   TITLE
+========================================================= */
+
+.title {
+
+    position: relative;
+
+    z-index: 2;
+
+    margin-bottom: 12px;
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 27px;
+
+    font-weight: 700;
+
+    color: var(--navy);
+
+}
+
+
+/* =========================================================
+   DATE
+========================================================= */
+
+.date {
+
+    display: inline-block;
+
+    position: relative;
+
+    z-index: 2;
+
+    margin-bottom: 18px;
+
+    padding: 6px 14px;
+
+    background: #f2e6bd;
+
+    border: 1px solid var(--gold-light);
+
+    border-radius: 50px;
+
+    color: var(--gold-dark);
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+}
+
+
+.locked .date {
+
+    background: #e9e5d6;
+
+    border-color: #cfc7ac;
+
+    color: #837b64;
+
+}
+
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.desc {
+
+    position: relative;
+
+    z-index: 2;
+
+    margin-bottom: 22px;
+
+    color: var(--text-light);
+
+    font-size: 14px;
+
+    line-height: 1.85;
+
+}
+
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+.buttons {
+
+    position: relative;
+
+    z-index: 2;
+
+    display: flex;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+
+}
+
+
+.button {
+
+    display: inline-block;
+
+    padding: 11px 18px;
+
+    border-radius: 10px;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--gold-light),
+            var(--gold-dark)
+        );
+
+    color: var(--navy-dark);
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    text-decoration: none;
+
+    transition: .3s ease;
+
+}
+
+
+.button:hover {
+
+    transform: translateY(-2px);
+
+    background:
+        linear-gradient(
+            135deg,
+            #f3d67b,
+            #b77d0c
+        );
+
+}
+
+
+.button.lock {
+
+    background: #ddd7c2;
+
+    color: #89816b;
+
+    pointer-events: none;
+
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media(max-width: 700px) {
+
+    body {
+
+        padding: 30px 15px;
+
+    }
+
+
+    .hero {
+
+        padding: 40px 22px;
+
+        border-radius: 22px;
+
+    }
+
+
+    .hero h1 {
+
+        font-size: 47px;
+
+    }
+
+
+    .organization-title {
+
+        font-size: 20px;
+
+    }
+
+
+    .tagline {
+
+        font-size: 13px;
+
+    }
+
+
+    .current-stage h2 {
+
+        font-size: 28px;
+
+    }
+
+
+    .time-box {
+
+        width: 75px;
+
+        padding: 14px 8px;
+
+    }
+
+
+    .time-box h2 {
+
+        font-size: 28px;
+
+    }
+
+
+    .timeline {
+
+        padding-left: 32px;
+
+    }
+
+
+    .timeline::before {
+
+        left: 12px;
+
+    }
+
+
+    .dot {
+
+        left: -30px;
+
+        width: 19px;
+        height: 19px;
+
+        border-width: 4px;
+
+    }
+
+
+    .card {
+
+        padding: 24px 20px;
+
+        border-radius: 17px;
+
+    }
+
+
+    .title {
+
+        font-size: 23px;
+
+    }
+
+
+    .desc {
+
+        font-size: 13px;
+
+        line-height: 1.75;
+
+    }
+
+
+    .buttons {
+
+        flex-direction: column;
+
+    }
+
+
+    .button {
+
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+
+    .hero-flower {
+
+        transform: scale(.7);
+
+    }
+
+}
