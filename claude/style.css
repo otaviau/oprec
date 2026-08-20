@@ -590,47 +590,47 @@ h1 {
 
 }
 
-.result-grid{
+.result-grid {
 
-margin:28px 0;
-
-}
-
-.result-item{
-
-padding:14px 0;
-
-border-bottom:1px solid #E6DBB3;
+    margin: 28px 0;
 
 }
 
-.result-item:last-child{
+.result-item {
 
-border-bottom:none;
+    padding: 14px 0;
 
-padding-bottom:0;
-
-}
-
-.result-label{
-
-font-size:13px;
-
-font-weight:500;
-
-color:#8a7a45;
-
-margin-bottom:6px;
+    border-bottom: 1px solid #E6DBB3;
 
 }
 
-.result-value{
+.result-item:last-child {
 
-font-size:18px;
+    border-bottom: none;
 
-font-weight:600;
+    padding-bottom: 0;
 
-color:#16244f;
+}
+
+.result-label {
+
+    font-size: 13px;
+
+    font-weight: 500;
+
+    color: #8a7a45;
+
+    margin-bottom: 6px;
+
+}
+
+.result-value {
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    color: #16244f;
 
 }
 
@@ -821,30 +821,32 @@ color:#16244f;
 
 
 
-        :root {--gold: #c89422;
-            --gold-light: #e8c86b;
-        }
-        .gold-divider {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            margin: 22px auto;
-            max-width: 700px;
-            color: var(--gold);
-        }
+:root {
+    --gold: #c89422;
+    --gold-light: #e8c86b;
+}
 
-        .gold-divider::before,
-        .gold-divider::after {
-            content: "";
-            height: 2px;
-            flex: 1;
-            background: linear-gradient(90deg, transparent, var(--gold));
-        }
+.gold-divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 22px auto;
+    max-width: 700px;
+    color: var(--gold);
+}
 
-        .gold-divider::after {
-            background: linear-gradient(90deg, var(--gold), transparent);
-        }
+.gold-divider::before,
+.gold-divider::after {
+    content: "";
+    height: 2px;
+    flex: 1;
+    background: linear-gradient(90deg, transparent, var(--gold));
+}
 
-        .gold-divider span {
-            font-size: 17px;
-        }
+.gold-divider::after {
+    background: linear-gradient(90deg, var(--gold), transparent);
+}
+
+.gold-divider span {
+    font-size: 17px;
+}
