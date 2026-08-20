@@ -816,3 +816,35 @@ color:#16244f;
     color: #6b5f3f;
 
 }
+
+
+
+
+
+        :root {--gold: #c89422;
+            --gold-light: #e8c86b;
+        }
+        .gold-divider {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 22px auto;
+            max-width: 700px;
+            color: var(--gold);
+        }
+
+        .gold-divider::before,
+        .gold-divider::after {
+            content: "";
+            height: 2px;
+            flex: 1;
+            background: linear-gradient(90deg, transparent, var(--gold));
+        }
+
+        .gold-divider::after {
+            background: linear-gradient(90deg, var(--gold), transparent);
+        }
+
+        .gold-divider span {
+            font-size: 17px;
+        }
