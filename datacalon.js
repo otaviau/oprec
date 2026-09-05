@@ -1,33 +1,18 @@
 const peserta = [
-
 {
-
 nim:"244117001001",
-
 nama:"Otavia Ulandari",
-
 kelompok:"Kelompok 1",
-
 mentor:"Kak Aisyah",
-
 wa:"https://chat.whatsapp.com/AAAA"
-
 },
-
 {
-
 nim:"244117001002",
-
 nama:"Budi Santoso",
-
 kelompok:"Kelompok 2",
-
 mentor:"Kak Rizky",
-
 wa:"https://chat.whatsapp.com/BBBB"
-
 }
-
 ];
 
 function cariPeserta(){
