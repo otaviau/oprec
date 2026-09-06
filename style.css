@@ -609,7 +609,9 @@ h1 {
 
 .search-box button:hover {
 
-    background: linear-gradient(135deg, #F1CB60 0%, #C9950F 100%);
+    background: linear-gradient(135deg, #F1CB60 0%, #C9950F 100%
+    
+    );
 
 }
 
