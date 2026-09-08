@@ -1,6 +1,6 @@
 console.log("Script berhasil dimuat");
 
-const targetDate = new Date(2026, 9, 23, 23, 59, 59);
+const targetDate = new Date(2026, 8, 28, 23, 59, 59);
 
 console.log(targetDate);
 console.log(new Date());
