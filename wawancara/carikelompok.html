@@ -15,40 +15,61 @@
 </head>
 
 <body>
-<section class="search-section">
+    <section class="search-section">
 
-    <div class="card">
+        <div class="card">
 
-        <div class="status open">
-            📢 Pengumuman Kelompok
+            <!-- <div class="status open">
+                Pengumuman Kelompok
+            </div> -->
+
+            <div style="text-align: center;">
+
+                <div class="title" style="margin-bottom: 0px;">
+                    Cari Kelompok
+                </div>
+
+                <div class="title" style="
+                color: rgb(165, 6, 6);
+                margin-bottom: 10px;
+            ">
+                    <i>Open Recruitment</i> Formadiksi Polinema Tahun 2026
+                </div>
+
+            </div>
+
+            <div class="floral-divider">
+                <img src="../media/a_wide_horizontal_decorative_floral_divider_orname.png" alt="Floral Divider">
+            </div>
+            <div class="note-title" style="
+                margin-top: 20px;
+                margin-bottom: 0px;
+            ">
+                Catatan
+            </div>
+
+            <div class="note-text">
+                <ul class="dresscode-list">
+                    <li> Masukkan NIM untuk mengetahui kelompok Open Recruitment yang telah ditentukan panitia. </li>
+                    <li> Pencarian kelompok dilakukan dengan batas waktu maksimal tanggal <strong>11 Oktober 2026</strong>.</li>
+                </ul>
+            </div>
+
+            <div class="search-box">
+
+                <input type="text" id="nimInput" placeholder="Masukkan NIM">
+
+                <button onclick="cariPeserta()">
+                    Cari
+                </button>
+
+            </div>
+
         </div>
 
-        <div class="title">
-            Cari Kelompok Open Recruitment
-        </div>
+        <div id="hasil"></div>
 
-        <p class="desc">
-            Masukkan NIM untuk mengetahui kelompok Open Recruitment yang telah ditentukan panitia.
-        </p>
-
-        <div class="search-box">
-
-            <input
-                type="text"
-                id="nimInput"
-                placeholder="Masukkan NIM">
-
-            <button onclick="cariPeserta()">
-                Cari
-            </button>
-
-        </div>
-
-    </div>
-
-    <div id="hasil"></div>
-
-</section>
+    </section>
     <script src="../script.js"></script>
     <script src="datacalon.js"></script>
 </body>
