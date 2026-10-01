@@ -4,7 +4,7 @@
    (tidak ada elemen #seconds di HTML manapun, jadi tidak dihitung)
    ============================================================ */
 
-const targetDate = new Date(2026, 8, 28, 23, 59, 59);
+const targetDate = new Date(2026, 9, 2, 23, 59, 59);
 
 function updateCountdown() {
 
