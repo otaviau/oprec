@@ -411,7 +411,42 @@ nama:"Nisa Rahmadani",
 kelompok:"Tarum",
 mentor:"Mbak Winda",
 wa:"https://chat.whatsapp.com/IJYT2h7k66xE9pZi6YJr2x?s=cl&p=a&mlu=0"
-}
+},
+{
+nim:"264102030055",
+nama:"Farkhan Fauzan A.",
+kelompok:"Lembayung",
+mentor:"Mas Halim",
+wa:"https://chat.whatsapp.com/BIGiU7h3DPeFLHjggSpN9L?s=cl&p=a&mlu=0"
+},
+{
+nim:"264102030005",
+nama:"Rheza Putra Pratama",
+kelompok:"Lembayung",
+mentor:"Mas Halim",
+wa:"https://chat.whatsapp.com/BIGiU7h3DPeFLHjggSpN9L?s=cl&p=a&mlu=0"
+},
+{
+nim:"264206020072",
+nama:"Resa Zaskia Salwa Safrina",
+kelompok:"Gading",
+mentor:"Mbak Revalinda",
+wa:"https://chat.whatsapp.com/KmECfQDJLTjFMuEMpV4GeV?s=cl&p=a&mlu=0"
+},
+{
+nim:"264101070059",
+nama:"Nia Ayu Rahmadanti ",
+kelompok:"Soga",
+mentor:"Mbak Mafida",
+wa:"https://chat.whatsapp.com/H1870AB9Z605TrJuSLvF83?s=cl&p=a&mlu=0"
+},
+{
+nim:"263206010009",
+nama:"Tiara Laila Permatasari ",
+kelompok:"Tarum",
+mentor:"Mbak Winda",
+wa:"https://chat.whatsapp.com/IJYT2h7k66xE9pZi6YJr2x?s=cl&p=a&mlu=0"
+},
 ];
 
 function cariPeserta(){
