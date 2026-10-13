@@ -452,7 +452,7 @@ h1 {
 
     height: 100%;
 
-    width: 25%;
+    width: 50%;
 
     background: linear-gradient(90deg, #E3B94C 0%, #B8860B 100%);
 
@@ -472,7 +472,7 @@ h1 {
 
     to {
 
-        width: 25%;
+        width: 50%;
 
     }
 
